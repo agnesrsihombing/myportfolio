@@ -61,3 +61,131 @@ img{
       overflow-x: hidden;
     }
 }
+
+/* ================================
+   GLOBAL COLOR SYSTEM (BROWN–CREAM)
+================================ */
+:root {
+  --brown-dark: #4b3621;
+  --brown-medium: #6f4e37;
+  --brown-soft: #8b6a4e;
+  --cream-bg: #f6f1e8;
+  --cream-soft: #fbf8f2;
+}
+
+/* ================================
+   GLOBAL RESET & BASE STYLE
+================================ */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--brown-dark);
+}
+
+body {
+  background-color: var(--cream-bg);
+  font-family: 'Poppins', sans-serif;
+  color: var(--brown-dark);
+}
+
+/* Text hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--brown-dark);
+}
+
+p, span, li {
+  color: var(--brown-soft);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: var(--brown-dark);
+}
+
+/* ================================
+   FORCE ALL SECTIONS TO CREAM
+================================ */
+section,
+.section,
+.about,
+.skills,
+.projects,
+.experience,
+.education,
+.contacts {
+  background-color: var(--cream-bg) !important;
+}
+
+/* ================================
+   LANDING SPECIFIC (AMAN)
+================================ */
+.landing--container-left {
+  background-color: var(--brown-medium) !important;
+}
+
+.landing--container-right {
+  background-color: var(--cream-bg) !important;
+}
+
+/* ================================
+   ICONS & DIVIDERS
+================================ */
+svg, i {
+  color: var(--brown-dark);
+}
+
+hr, .divider, .line {
+  background-color: var(--brown-soft) !important;
+}
+
+/* ================================
+   SCROLLBAR (LEMBUT & ESTETIK)
+================================ */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brown-soft);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brown-medium);
+}
+
+/* ===== FORCE ALL TEXT TO DARK BROWN ===== */
+:root{
+  --brown-dark: #2f1f14;   /* coklat tua bgt */
+  --cream-bg: #f6f1e8;
+}
+
+html, body {
+  background: var(--cream-bg) !important;
+  color: var(--brown-dark) !important;
+}
+
+/* semua text element jadi coklat tua */
+h1, h2, h3, h4, h5, h6,
+p, span, li, a,
+button, input, textarea, label,
+small, strong, em, b, i {
+  color: var(--brown-dark) !important;
+}
+
+/* placeholder juga */
+::placeholder {
+  color: var(--brown-dark) !important;
+  opacity: 0.65 !important;
+}
+
+/* icon yang kadang beda warna */
+svg, svg * {
+  fill: var(--brown-dark) !important;
+  color: var(--brown-dark) !important;
+}

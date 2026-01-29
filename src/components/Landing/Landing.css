@@ -240,3 +240,11 @@
     top: 20%;
   }
 }
+
+.landing--container-left {
+  background-color: #6f4e37 !important; /* brown */
+}
+
+.landing--container-right {
+  background-color: #f6f1e8 !important; /* cream */
+}

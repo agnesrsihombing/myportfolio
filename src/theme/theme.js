@@ -353,3 +353,29 @@ export const yellowThemeDark = {
     contactsimg: contactsYellow
 }
 
+export const mochaCreamTheme = {
+  type: "light",
+  primary: "#2f1f14",
+  primary400: "#2f1f14",
+  primary600: "#2f1f14",
+  primary80: "rgba(47,31,20,0.8)",
+  primary50: "rgba(47,31,20,0.5)",
+  primary30: "rgba(47,31,20,0.3)",
+
+  secondary: "#6f4e37",
+  tertiary: "#2f1f14",
+
+  text: "#2f1f14",
+  text2: "#2f1f14",
+  text3: "#2f1f14",
+
+  background: "#f6f1e8",
+  background2: "#f6f1e8",
+  body: "#f6f1e8",
+
+  card: "#fbf8f2",
+  card2: "#fbf8f2",
+
+  button: "#2f1f14",
+  buttonHover: "#6f4e37",
+};

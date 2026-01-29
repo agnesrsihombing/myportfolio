@@ -1,9 +1,9 @@
 import resume from '../assets/pdf/resume.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    name: 'Agnes Renatha Sihombing',
+    title: "Data Science & Business Analytics",
+    desciption:"I build data-driven insights and dashboards with Python, SQL, Power BI, and Tableau. Recently, I developed a web-based project tracker (PWA) and worked on analytics and reporting initiatives. Currently exploring machine learning and LLM fundamentals. ",
     image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
     resumePdf: resume
 }

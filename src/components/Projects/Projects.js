@@ -6,6 +6,8 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { projectsData } from '../../data/projectsData'
 import { HiArrowRight } from "react-icons/hi";
 
+
+
 import './Projects.css'
 import SingleProject from './SingleProject/SingleProject';
 
@@ -46,7 +48,7 @@ function Projects() {
     return (
         <>
             {projectsData.length > 0 && (
-                <div className="projects" id="projects" style={{backgroundColor: theme.secondary}}>
+                <div className="projects allProjectsPage" id="projects" style={{backgroundColor: '#8B6A4E'}}>
                     <div className="projects--header">
                         <h1 style={{color: theme.primary}}>Projects</h1>
                     </div>

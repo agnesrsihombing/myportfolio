@@ -171,3 +171,16 @@
 @media only screen and (device-width: 768px) {
 
 }
+
+/* ===== FORCE SKILLS THEME ===== */
+
+.skill-box {
+  background-color: #CDB8A3 !important;
+  color: #F6F0E8 !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.skill-box h4,
+.skill-box p {
+  color: #F6F0E8 !important;
+}

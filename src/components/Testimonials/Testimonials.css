@@ -257,3 +257,33 @@
       min-height: 350px;
   }
 }
+
+.testimonialBox {
+  background-color: #C4A484;
+  color: #FFF7ED;
+  border-radius: 9999px;
+  padding: 2.5rem 4rem;
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.testimonialQuote {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  font-style: italic;
+  color: #FFF7ED;
+}
+
+.testimonialName {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #FFF7ED;
+}
+
+.testimonialRole {
+  font-size: 0.9rem;
+  color: #F3E8D7;
+}

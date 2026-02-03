@@ -353,29 +353,36 @@ export const yellowThemeDark = {
     contactsimg: contactsYellow
 }
 
+
+
 export const mochaCreamTheme = {
-  type: "light",
-  primary: "#2f1f14",
-  primary400: "#2f1f14",
-  primary600: "#2f1f14",
-  primary80: "rgba(47,31,20,0.8)",
-  primary50: "rgba(47,31,20,0.5)",
-  primary30: "rgba(47,31,20,0.3)",
+  type: 'light',
 
-  secondary: "#6f4e37",
-  tertiary: "#2f1f14",
+  // BACKGROUND
+  primary: '#F6F0E8',        // cream background (kanan)
+  primary400: '#EFE6DC',
+  primary600: '#E6D7C7',
 
-  text: "#2f1f14",
-  text2: "#2f1f14",
-  text3: "#2f1f14",
+  // MAIN TEXT (coklat tua)
+  secondary: '#2B1E15',      // espresso (judul/heading)
+  secondary50: '#3A2A1F',    // text normal
+  secondary80: '#5A4638',    // text soft
 
-  background: "#f6f1e8",
-  background2: "#f6f1e8",
-  body: "#f6f1e8",
+  // LEFT SIDE + ACCENT
+  tertiary: '#5B4333',       // coklat kiri (lebih tua, biar ga “kemudaan”)
+  tertiary50: '#6B4F3A',
+  tertiary80: '#DCCBB8',     // beige untuk border/soft card
 
-  card: "#fbf8f2",
-  card2: "#fbf8f2",
+  // BUTTON / HIGHLIGHT
+  accent: '#2B1E15',         // tombol solid coklat tua
+  accent50: '#F6F0E8',       // teks di tombol outline / bg
+  accent80: '#CDB8A3',
 
-  button: "#2f1f14",
-  buttonHover: "#6f4e37",
+  // CARD / SURFACE
+  surface: 'rgba(43, 30, 21, 0.10)',  // card translucent (biar smooth ga kaku)
+  surface2: 'rgba(43, 30, 21, 0.16)',
+
+  // ICONS
+  iconColor: '#FFFFFF',      // icon putih kalau di area coklat
+  iconColorDark: '#2B1E15',  // icon coklat tua kalau di area cream
 };

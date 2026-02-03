@@ -176,3 +176,30 @@
 @media only screen and (device-width: 768px) {
 
 }
+
+/* ===== FORCE EDUCATION CARD THEME (put this at VERY BOTTOM) ===== */
+
+.education-body {
+  color: #F6F0E8 !important; /* override hsla green */
+}
+
+.education-card {
+  background-color: #8b6a4e !important;  /* card brown */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+}
+
+.education-details > h6,
+.education-details > h4,
+.education-details > h5 {
+  color: #F6F0E8 !important; /* override any other colors including blueviolet */
+}
+
+/* icon circle background (optional, biar lucu) */
+.educard-img {
+  background-color: #F6F0E8 !important;
+}
+
+/* icon inside circle */
+.educard-img > img {
+  filter: brightness(0) saturate(100%); /* bikin icon jadi gelap */
+}

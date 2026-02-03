@@ -181,3 +181,17 @@
 @media only screen and (device-width: 768px) {
 
 }
+
+/* ===== FORCE EXPERIENCE THEME ===== */
+
+.experience-card,
+.resume-card {
+  background-color: #8b6a4e !important;
+  color: #F6F0E8 !important;
+}
+
+.experience-details h6,
+.experience-details h4,
+.experience-details h5 {
+  color: #F6F0E8 !important;
+}

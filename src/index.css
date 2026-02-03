@@ -30,10 +30,10 @@ a {
     height: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #555;
+    background: #f6f1e8;
 }
 ::-webkit-scrollbar-thumb {
-    background: #555;
+    background: #f6f1e8;
   border-radius: 10px;
   transition: 0.3s;
 }
@@ -161,13 +161,13 @@ hr, .divider, .line {
 
 /* ===== FORCE ALL TEXT TO DARK BROWN ===== */
 :root{
-  --brown-dark: #2f1f14;   /* coklat tua bgt */
+  --brown-dark: #1b0e03;   /* coklat tua bgt */
   --cream-bg: #f6f1e8;
 }
 
 html, body {
   background: var(--cream-bg) !important;
-  color: var(--brown-dark) !important;
+  color: #C4A484 !important;
 }
 
 /* semua text element jadi coklat tua */
@@ -189,3 +189,129 @@ svg, svg * {
   fill: var(--brown-dark) !important;
   color: var(--brown-dark) !important;
 }
+
+/* ======================================
+   MOCHA / CREAM — CLEAN & SAFE VERSION
+   (2 WARNA SAJA, NO DARK BROWN)
+====================================== */
+
+:root{
+  /* BACKGROUND */
+  --cream: #F6F0E8;
+  --cream-2: #EFE6DC;
+
+  /* BROWN (TIDAK TERLALU TUA) */
+  --brown: #5B4333;
+  --brown-soft: #6B4F3A;
+
+  /* TEXT */
+  --text-main: #2B1E15;
+  --text-soft: #5A4638;
+
+  /* CARD */
+  --card-bg: #7f4f2de0;
+  --card-border: #683e2094;
+}
+
+/* =====================
+   BASE
+===================== */
+html, body{
+  background: var(--cream);
+  color: var(--text-main);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--text-main);
+}
+
+p, span, li, label, small{
+  color: var(--text-soft);
+}
+
+a{
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+/* =====================
+   SECTIONS (NO DARK)
+===================== */
+section, .section, .container, .main, .app{
+  background: transparent;
+}
+
+/* =====================
+   LANDING / SPLIT
+===================== */
+.landing--container-left{
+  background: linear-gradient(
+    180deg,
+    var(--brown),
+    var(--brown-soft)
+  );
+}
+
+.landing--container-right{
+  background: var(--cream);
+}
+
+/* =====================
+   CARDS (PROJECT / EXP)
+===================== */
+.card,
+.project-card,
+.experience-card,
+.edu-card,
+.skill-card{
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 18px;
+  backdrop-filter: blur(6px);
+}
+
+/* =====================
+   BUTTONS
+===================== */
+button,
+.btn,
+.button{
+  border-radius: 999px;
+  border: 1px solid var(--text-main);
+  background: transparent;
+  color: var(--text-main);
+}
+
+button.primary,
+.btn-primary{
+  background: var(--text-main);
+  color: var(--cream);
+}
+
+/* =====================
+   ICONS (AMAN)
+===================== */
+svg, i{
+  color: inherit;
+}
+
+/* =====================
+   SCROLLBAR (OPTIONAL)
+===================== */
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background: var(--cream-2);
+}
+::-webkit-scrollbar-thumb{
+  background: var(--brown-soft);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: var(--brown);
+}
+
+

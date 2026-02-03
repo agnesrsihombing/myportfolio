@@ -33,7 +33,7 @@ function ProjectPage() {
             fontFamily: "'Noto Sans TC', sans-serif",
             fontWeight: 500,
             fontSize: '0.9rem',  
-            backgroundColor: theme.secondary, 
+            backgroundColor: '#F6F0E8', 
             boxShadow: theme.type === 'dark' ? 'inset 3px 3px 6px #ffffff10, inset -3px -3px 6px #00000060' : 'inset 3px 3px 6px #ffffffbd, inset -3px -3px 6px #00000030',
             "&::placeholder": {
                 color: theme.tertiary80, 

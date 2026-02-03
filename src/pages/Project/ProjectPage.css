@@ -27,6 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background-color: #F6F0E8;
 }
 
 .projectPage-search {
@@ -34,6 +35,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F6F0E8;
 }
 
 .project-container {

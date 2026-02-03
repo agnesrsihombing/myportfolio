@@ -123,3 +123,25 @@
 @media only screen and (device-width: 768px) {
 
 }
+
+/* =========================
+   SAFE COLOR OVERRIDE ONLY
+   (NO STRUCTURE CHANGE)
+========================= */
+
+/* background section services */
+.services {
+  background-color: #8b6a4e !important;
+}
+
+/* header title */
+.services h1,
+.services h2 {
+  color: #F6F0E8 !important;
+}
+
+/* header description */
+.services p {
+  color: #F6F0E8 !important;
+  opacity: 0.9;
+}

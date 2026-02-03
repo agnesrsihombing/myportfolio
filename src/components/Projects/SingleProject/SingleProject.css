@@ -1,5 +1,5 @@
 .singleProject {
-    box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+    box-shadow: 4px 4px 8px #6B4F3A;
     width: 304px;
     height: 360px;
     border-radius: 10px;
@@ -105,4 +105,26 @@
     font-weight: 500;
     word-break: break-word; 
     line-height: 100%;
+}
+
+/* FORCE OVERRIDE WARNA CARD */
+.singleProject {
+    background-color: #CDB8A3 !important;
+}
+
+/* FORCE DESKRIPSI */
+.singleProject .project--desc {
+    background-color: #8b6a4e !important;
+    color: #F6F0E8 !important;
+}
+
+/* FORCE TECH STACK */
+.singleProject .project--lang {
+    background-color: #CDB8A3 !important;
+    color: #F6F0E8 !important;
+}
+
+/* JUDUL */
+.projectContent > h2 {
+    color: #F6F0E8;
 }

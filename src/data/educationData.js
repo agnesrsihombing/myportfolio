@@ -1,23 +1,16 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
-        course: 'Higher Secondary Education',
-        startYear: '2007',
-        endYear: '2015'
+        institution: 'The University of Western Australia',
+        course: 'Bachelor of Science - Data Science and Business Analytics',
+        startYear: '2024 ',
+        endYear: ' 2026 (Expected)'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
-        course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
-    },
-    {
-        id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'Sepuluh Nopember Institute of Technology',
+        course: 'Bachelor of Applied Science - Business Statistics',
+        startYear: '2021 ',
+        endYear: ' 2023'
     },
 ]

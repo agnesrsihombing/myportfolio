@@ -49,46 +49,45 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                         {name}
                     </h2>
                     <img src={image ? image : placeholder} alt={name} />
-                    <div className='project--showcaseBtn'>
-                        <a
+                    <div className={`project--showcaseBtn ${(demo?.trim() && code?.trim()) ? 'twoBtns' : 'oneBtn'}`}>
+                        {demo && (
+                            <a
                             href={demo}
                             target='_blank'
                             rel='noreferrer'
                             className={classes.iconBtn}
-                            aria-labelledby={`${name
-                                .replace(' ', '-')
-                                .toLowerCase()} ${name
+                            aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-demo`}
-                        >
+                            title='View Demo'
+                            >
                             <FaPlay
-                                id={`${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-demo`}
+                                id={`${name.replace(' ', '-').toLowerCase()}-demo`}
                                 className={classes.icon}
                                 aria-label='Demo'
                             />
-                        </a>
-                        <a
+                            </a>
+                        )}
+
+                        {code && (
+                            <a
                             href={code}
                             target='_blank'
                             rel='noreferrer'
                             className={classes.iconBtn}
-                            aria-labelledby={`${name
-                                .replace(' ', '-')
-                                .toLowerCase()} ${name
+                            aria-labelledby={`${name.replace(' ', '-').toLowerCase()} ${name
                                 .replace(' ', '-')
                                 .toLowerCase()}-code`}
-                        >
+                            title='View Code'
+                            >
                             <FaCode
-                                id={`${name
-                                    .replace(' ', '-')
-                                    .toLowerCase()}-code`}
+                                id={`${name.replace(' ', '-').toLowerCase()}-code`}
                                 className={classes.icon}
                                 aria-label='Code'
                             />
-                        </a>
-                    </div>
+                            </a>
+                        )}
+                        </div>
                 </div>
                 <p
                     className='project--desc'

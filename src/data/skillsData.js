@@ -2,9 +2,9 @@
     'Python',
     'Microsoft Office',
     'Tableau',
-    'Microsoft Power BI',
-    'R Programming',
-    'SQL',
+    'PowerBI',
+    'R',
+    'MySQL',
     'Figma',
     'Canva',
 ]
@@ -94,4 +94,7 @@
     Tensorflow
     Webex
     Wordpress
-*/
+    Rprogramming
+    tableau
+    Power BI
+    */

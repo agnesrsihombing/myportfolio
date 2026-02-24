@@ -48,7 +48,7 @@
 
 .about-description >h2 {
     margin-bottom: 40px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: var(--primaryFont);
 }
 
@@ -59,13 +59,13 @@
 }
 
 .about-img {
-    margin-top: 40px;
+    margin-top: 20px;
     pointer-events: none;
 }
 
 .about-img > img {
-    width: 380px;
-    flex: 0.5;
+    width: 300px;
+    flex: 0.3;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
@@ -157,4 +157,9 @@
     .about-img > img {
         width: 200px;
     }
+}
+
+.about {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }

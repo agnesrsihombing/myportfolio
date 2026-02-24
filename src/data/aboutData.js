@@ -1,6 +1,8 @@
+import aboutme from "../assets/png/aboutme.jpg"
+
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Jane. I'm a web designer and developer based in Southampton, UK.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
-    image: 2
+    description1: "I am a Data Science and Business Analytics student with experience working in professional and volunteer settings where I take ownership, coordinate with stakeholders, and support team outcomes.",
+    description2: "Beyond technical projects, I have developed leadership skills through roles in AIESEC, educational volunteering, and mentoring, where I progressed from team member to leadership positions and worked with diverse teams across cultures. I value clear communication, responsibility, and contributing meaningfully in both analytical and people-focused environments.",
+    image: aboutme
 }
